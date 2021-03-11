@@ -53,8 +53,9 @@
 #     print("Population          State")
 #     for state_item in state_data:
 #         print(state_item[1], "        ", state_item[0])
-
-
+# or
+# for i in range(0,len(state_data)):
+        # print(state_data[i][1], "        ", state_data[i][0])
 # report1(newEngland)
 
 
