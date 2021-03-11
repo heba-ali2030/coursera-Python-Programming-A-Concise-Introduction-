@@ -44,18 +44,20 @@
 # print(range(2,20,3))
 # print(list(range(2,20,3)))
 
-newEngland = [["Massachusetts",6692824],["Connecticut",3596080],
-              ["Maine",1328302],["New Hampshire",1323459],
-              ["Rhode Island",1051511],["Vermont",626630]]
+# newEngland = [["Massachusetts",6692824],["Connecticut",3596080],
+#               ["Maine",1328302],["New Hampshire",1323459],
+#               ["Rhode Island",1051511],["Vermont",626630]]
               
-def report1(state_data):
-    """ prints population report """
-    print("Population          State")
-    for state_item in state_data:
-        print(state_item[1], "        ", state_item[0])
+# def report1(state_data):
+#     """ prints population report """
+#     print("Population          State")
+#     for state_item in state_data:
+#         print(state_item[1], "        ", state_item[0])
 
 
-report1(newEngland)
+# report1(newEngland)
+
+
 
 
 
