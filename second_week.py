@@ -6,9 +6,8 @@
 
 # def average(numlis):
 #     sum = 0
-#     for num in numlis:
-#         sum= sum + 1
-        
+#     for numbers in numlis:
+#         sum= sum + numbers
 #         average = sum / (len(numlis))
 #         print(average)
 
@@ -26,11 +25,11 @@
 # for_state(newEngland)
 
 
-# #####3-  Write a function 'print_list(lis)' that prints items of the list lis. Test it 
+#3-  Write a function 'print_list(lis)' that prints items of the list lis. Test it 
 # by running the three tests that I give here.
 # letter_list = ['a', 'b', 'c']
 # cap_list = ['A', 'B', 'C', 'D']
-# misc_list = ['ball', 3.14, -50, 'university', "course"
+# misc_list = ['ball', 3.14, -50, 'university', "course"]
 
 # def print_list(lis):
 #     for items in lis:
