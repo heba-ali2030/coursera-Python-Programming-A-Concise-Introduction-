@@ -58,6 +58,14 @@
 # report1(newEngland)
 
 
+def multiply():
+    numstr1 = input("Enter a number: ")
+    numstr2 = input("Enter another number: ")
+    num1 = float(numstr1)
+    num2 = float(numstr2)
+    print("Their product is ", num1 * num2)
+    print("Won't work: ", numstr1 * numstr2)
+multiply()    
 
 
 
