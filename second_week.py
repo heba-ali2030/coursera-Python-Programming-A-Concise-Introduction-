@@ -58,14 +58,88 @@
 # report1(newEngland)
 
 
-def multiply():
-    numstr1 = input("Enter a number: ")
-    numstr2 = input("Enter another number: ")
-    num1 = float(numstr1)
-    num2 = float(numstr2)
-    print("Their product is ", num1 * num2)
-    print("Won't work: ", numstr1 * numstr2)
-multiply()    
+# def multiply():
+#     numstr1 = input("Enter a number: ")
+#     numstr2 = input("Enter another number: ")
+#     num1 = float(numstr1)
+#     num2 = float(numstr2)
+#     print("Their product is ", num1 * num2)
+#     print("Won't work: ", numstr1 * numstr2)
+# multiply()    
 
 
 
+# import random
+
+# verbs=["goes","cooks","shoots","faints","chews","screams"]
+# nouns=["bear","lion","mother","baby","sister","car","bicycle","book"]
+# adverbs=["handily","sweetly","sourly","gingerly","forcefully","meekly"]
+# articles=["a","the","that","this"]
+
+# def sentence():
+#     article = random.choice(articles)    
+#     noun = random.choice(nouns)
+#     verb = random.choice(verbs)
+#     adverb = random.choice(adverbs)
+    
+#     our_sentence = article + " " + noun + " " + verb + " " + adverb + "."
+#     our_sentence = our_sentence.capitalize() 
+
+# print(our_sentence)
+
+
+# import random
+
+# verbs=["are","is","goes","cooks","shoots","faints","chews","screams"]
+# nouns=["bear","lion","mother","baby","sister","car","bicycle","book"]
+# adverbs=["handily","sweetly","sourly","gingerly","forcefully","meekly"]
+# articles=["a","the","that","this"]
+
+# def simple_poem():
+#     article = random.choice(articles)    
+#     noun = random.choice(nouns)
+#     verb = random.choice(verbs)
+#     adverb = random.choice(adverbs)
+    
+#     our_sentence = article + " " + noun + " " + verb + " " + adverb + "."
+#     our_sentence = our_sentence.capitalize()
+    
+# print(our_sentence)
+
+
+def store_up():
+    num_lis = []
+    while True:
+        nextnum = int(input("Enter a number, 0 to quit: "))
+        if nextnum == 0:
+            break
+        num_lis.append(nextnum)
+print(num_lis)
+
+
+# Exercise:
+# Write a function diner_waitress() that asks for you order. First start an empty
+# list, call it order. Then use a while loop and an input() statement to gather
+# the order. Continue in the while loop until the customer says "that's all". 
+# Onne way to end the loop is to use 'break' to break out of the loop when 
+# "that's all" is entered. 
+# Recall that you can add to a list by using the list's .append() method; suppose
+# that your list is called order. To create an empty list you can use
+# order = []. You are going to have to input one food at a time and append it
+# to the order list.
+Then print out the order. Here is my run:
+
+diner_waitress()
+Hello, I'll be your waitress. What will you have?
+
+menu item: eggs
+
+menu item: bacon
+
+menu item: toast
+
+menu item: jelly
+
+menu item: that's all
+You've ordered:
+['eggs', 'bacon', 'toast', 'jelly']
