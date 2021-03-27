@@ -69,24 +69,12 @@
 
 
 
+
+# ## Libraries
+
 # import random
-
-# verbs=["goes","cooks","shoots","faints","chews","screams"]
-# nouns=["bear","lion","mother","baby","sister","car","bicycle","book"]
-# adverbs=["handily","sweetly","sourly","gingerly","forcefully","meekly"]
-# articles=["a","the","that","this"]
-
-# def sentence():
-#     article = random.choice(articles)    
-#     noun = random.choice(nouns)
-#     verb = random.choice(verbs)
-#     adverb = random.choice(adverbs)
-    
-#     our_sentence = article + " " + noun + " " + verb + " " + adverb + "."
-#     our_sentence = our_sentence.capitalize() 
-
-# print(our_sentence)
-
+# print(random.random())
+# print(random.randint(3,8))
 
 # import random
 
@@ -96,29 +84,46 @@
 # articles=["a","the","that","this"]
 
 # def simple_poem():
-#     article = random.choice(articles)    
-#     noun = random.choice(nouns)
-#     verb = random.choice(verbs)
-#     adverb = random.choice(adverbs)
+#     for i in range(5):
+#         article = random.choice(articles)    
+#         noun = random.choice(nouns)
+#         verb = random.choice(verbs)
+#         adverb = random.choice(adverbs)
     
-#     our_sentence = article + " " + noun + " " + verb + " " + adverb + "."
-#     our_sentence = our_sentence.capitalize()
-    
-# print(our_sentence)
+#         our_sentence = article + " " + noun + " " + verb + " " + adverb + "."
+#         our_sentence = our_sentence.capitalize()
+#         print(our_sentence)
+# simple_poem()
 
 
-def store_up():
-    num_lis = []
-    while True:
-        nextnum = int(input("Enter a number, 0 to quit: "))
-        if nextnum == 0:
-            break
-        num_lis.append(nextnum)
-print(num_lis)
+# def add_up():
+#     sum = 0
+#     while True:
+#         num = int(input("enter a number, enter zero to quite: "))
+#         if num == 0:
+#             break
+#         sum= sum + num
+#     print(sum)
+
+
+# add_up()
+
+
+
+# def store_up():
+#     numbers_list = []
+#     while True:
+#         nextnum = int(input("Enter a number, 0 to quit: "))
+#         if nextnum == 0:
+#             break
+#         numbers_list.append(nextnum)
+#     print(numbers_list)
+# store_up()
+
 
 
 # Exercise:
-# Write a function diner_waitress() that asks for you order. First start an empty
+# Write a function diner_waitress() that asks for your order. First start an empty
 # list, call it order. Then use a while loop and an input() statement to gather
 # the order. Continue in the while loop until the customer says "that's all". 
 # Onne way to end the loop is to use 'break' to break out of the loop when 
@@ -127,19 +132,39 @@ print(num_lis)
 # that your list is called order. To create an empty list you can use
 # order = []. You are going to have to input one food at a time and append it
 # to the order list.
-Then print out the order. Here is my run:
 
-diner_waitress()
-Hello, I'll be your waitress. What will you have?
+def dinner_waitress():
+    print('Hello, I will be your waitress, what will you have ?: ')
+    order =[]
+    while True:
+        food= input(" menu item : ")
+        if food.lower() == "that's all":
+            break
+        else:
+            order.append(food)
+    print(" you have ordered : ")
+    print(order)
 
-menu item: eggs
+dinner_waitress()
 
-menu item: bacon
 
-menu item: toast
 
-menu item: jelly
 
-menu item: that's all
-You've ordered:
-['eggs', 'bacon', 'toast', 'jelly']
+
+
+# Then print out the order. Here is my run:
+
+# diner_waitress()
+# Hello, I'll be your waitress. What will you have?
+
+# menu item: eggs
+
+# menu item: bacon
+
+# menu item: toast
+
+# menu item: jelly
+
+# menu item: that's all
+# You've ordered:
+# ['eggs', 'bacon', 'toast', 'jelly']
