@@ -133,38 +133,23 @@
 # order = []. You are going to have to input one food at a time and append it
 # to the order list.
 
-def dinner_waitress():
-    print('Hello, I will be your waitress, what will you have ?: ')
-    order =[]
-    while True:
-        food= input(" menu item : ")
-        if food.lower() == "that's all":
-            break
-        else:
-            order.append(food)
-    print(" you have ordered : ")
-    print(order)
+# def dinner_waitress():
+#     print('Hello, I will be your waitress, what will you have ?: ')
+#     order =[]
+#     while True:
+#         food= input(" menu item : ")
+#         if food.lower() == "that's all":
+#             break
+#         else:
+#             order.append(food)
+#     print(" you have ordered : ")
+#     print(order)
 
-dinner_waitress()
-
-
+# dinner_waitress()
 
 
 
 
-# Then print out the order. Here is my run:
 
-# diner_waitress()
-# Hello, I'll be your waitress. What will you have?
 
-# menu item: eggs
 
-# menu item: bacon
-
-# menu item: toast
-
-# menu item: jelly
-
-# menu item: that's all
-# You've ordered:
-# ['eggs', 'bacon', 'toast', 'jelly']
